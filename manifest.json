@@ -1,15 +1,20 @@
 {
   "manifest_version": 3,
-  "name": "Tab Exporter",
+  "name": "mwtools",
   "version": "1.0",
   "description": "모든 탭의 URL과 제목을 MediaWiki 형식으로 내보내기",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "{aa3873a1-3e86-4658-83bc-26e3dc90b5d6}"
+    }
+  },
   "permissions": [
     "tabs",
     "activeTab"
   ],
   "action": {
     "default_popup": "popup.html",
-    "default_title": "Tab Exporter"
+    "default_title": "MwTools"
   },
   "content_scripts": [
     {
